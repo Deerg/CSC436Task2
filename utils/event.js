@@ -9,6 +9,7 @@ const eventHandler = () => {
     const updateDomWithAddedNumbers = () => {
         result.innerHTML = 
             // parseInt(number1.value, 10)+parseInt(number2.value,10);
+            "Added Result: " +
             add(number1.value,number2.value);
     }
     addButton.addEventListener('click', updateDomWithAddedNumbers);
@@ -21,6 +22,7 @@ const Multiply = () => {
     const updateDomWithMultNumbers = () => {
         result.innerHTML = 
             // parseInt(number1.value, 10)+parseInt(number2.value,10);
+            "Multiply Result: " +
             number1.value * number2.value;
     }
     multButton.addEventListener('click', updateDomWithMultNumbers);
