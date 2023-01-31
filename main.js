@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import {eventHandler} from './utils/event';
-
+import { Multiply } from './utils/event';
 document.querySelector('#app').innerHTML = `
 <div class="container my-5">
 <div class="mb-3">
@@ -20,4 +20,5 @@ document.querySelector('#app').innerHTML = `
 </div>
 `;
 eventHandler();
+Multiply();
 // https://csc436.matgargano.com/duck
